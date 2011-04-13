@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-import api, os, json, sys
+import api, os, sys
 
 linode = api.Api(os.getenv('LINODE_API_KEY'))
 linode_id = os.getenv('LINODE_ID')
